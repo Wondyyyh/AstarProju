@@ -33,7 +33,7 @@ public class A_star : MonoBehaviour
 
     private void Awake()
     {
-        // spawn tiles one by one and set position values to them
+        // spawn tiles one by one, set grid position values and calculate "to_end" distance
         for (int y = 0; y < 25; y++)
         {
             for (int x = 0; x < 25; x++)
